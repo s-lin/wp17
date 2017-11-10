@@ -1,0 +1,50 @@
+body{
+	background: #ffffff;
+	font-family: roboto, sans-serif;
+	font-size: 16px;
+
+}
+
+#columns{
+	background: rgb(245,245,245);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.description{
+/*	border: 1px solid red;*/
+	padding: 1rem;
+	flex: 1;
+	min-width: 25%;
+	box-sizing: border-box;
+}
+
+h3{
+	background-color: yellow;
+	width: 600px;
+/*	color: blue;*/
+}
+p {
+	text-indent: 3rem;
+}
+
+#columns{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.noindent{
+	text-indent: 0;
+	/*background-color: red;*/
+}
+
+/*main{
+	margin: auto;
+	width: 600px;
+}*/
+
+.description{
+	border: 1px solid black;
+	min-width: 25%;
+}

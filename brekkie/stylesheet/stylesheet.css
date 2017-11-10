@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,400i')
+head{
+	text-align: center;
+	color: blue;
+}
+
+body{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background: rgba(158,158,158,0.22);
+	font-family: 'Roboto Slab', serif;
+	color: blue;
+	max-width: 300px
+}
+
+img{
+	width: 50%;
+	height: auto;
+}
+
+p{
+	text-indent: 0;
+}
+
+/*footer{
+	vertical-align: bottom;
+	font-size: 0.75em;
+}*/
+
+a:visited {
+    color: blue;
+}
+
+#text{
+	font-size: 0.75em;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	max-width: 300px;
+}
+
+#credit{
+	font-size: 0.75em;
+}
