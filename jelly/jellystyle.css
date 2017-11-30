@@ -85,6 +85,16 @@ body{
 	height: 150px;
 	border-radius: 10%;
 	background: white;
+	text-align: center;
+	font-family: NowAltMedium, sans-serif;
+	color: tomato;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 2em;
+}
+
+#button2:hover{
+	background: tomato;
 }
 
 #instructions{
@@ -97,13 +107,14 @@ body{
 	height: 15vw;
 	border: .25vw solid white;
 }
+
 p{
 	color: white;
 }
 
 a{
   text-decoration: none;
-  color: #232323;
+  color: #ffffff;
   
   transition: color 0.3s ease;
 }
@@ -171,7 +182,7 @@ a:hover{
 #menuToggle input:checked ~ span{
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #ffffff;
 }
 
 
