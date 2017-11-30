@@ -39,6 +39,10 @@ h4{
 	margin-left: auto;
 }
 
+.footer{
+	text-align: center;
+}
+
 .contrast{
 	/*padding: .5rem;*/
 	flex: 1;
@@ -67,12 +71,12 @@ h4{
 	flex-direction: row;
 }
 
-/*
-.bigcolumn{
-	display: flex;
-	flex-direction: row;
+#background{
+	min-width: 50%;
+	text-align: center;
+	flex: 1;
+	box: border-box;
 }
-*/
 
 footer{
 	color: black;
@@ -81,6 +85,22 @@ footer{
 a:visited{
 	color: black;
 }
+
+a:hover{
+	color: blue;
+}
+
+@media screen and (max-width: 800px){
+	h1{
+		font-size: 25vw;
+	}
+}
+/*
+.bigcolumn{
+	display: flex;
+	flex-direction: row;
+}
+*/
 
 /*
 p{

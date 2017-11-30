@@ -48,3 +48,9 @@ p {
 	border: 1px solid black;
 	min-width: 25%;
 }
+
+@media screen and (max-width: 800px){
+	h1{
+		font-size: 25vw;
+	}
+}

@@ -1,0 +1,54 @@
+.cylinder{
+	display: grid;
+	flex-direction: column;
+	float: left;
+	width: 150px
+}
+
+.square{
+	width: 100px;
+	height: 100px;
+	background: rgba(255, 255, 255, 0);
+	float: left;
+	border: 15px solid #0000ff;
+	position: relative;
+	top: 58px;
+	overflow: auto;
+}
+
+/*#parallelogram {
+	width: 100px;
+	height: 100px;
+	-webkit-transform: skew(120deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: red;
+}*/
+
+.circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0);
+	z-index: 10;
+	float: left;
+	border: 15px solid red;
+	position: relative;
+	mix-blend-mode: screen;
+	margin-bottom: -115px
+}
+
+.circle2{
+	width: 150px;
+	height: 100px;
+	border-radius: 50%;
+	background: #2d2da8;
+}
+/*#triangle{
+	width: 0;
+	height: 0;
+	border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-bottom: 100px blue;
+}
+*/
