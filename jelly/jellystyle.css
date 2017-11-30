@@ -15,7 +15,7 @@ body{
 .about_box{
 	text-align: center;
 	width: 40vw;
-	height: 28vw;
+	height: 35vw;
 	border: .25vw solid white;
 }
 
@@ -33,11 +33,17 @@ body{
 	font-family: NowAltLight, sans-serif;
 	font-size: 1vw;
 	margin-bottom: -1em;
+	width: 25vw;
+	margin-right: auto;
+	margin-left: auto;
+
 }
 
 .audio{
 	display: flex;
 	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 #about, #instructions{
 	display: flex;
@@ -68,17 +74,29 @@ body{
 	margin-bottom: 3em;
 }
 
-#about_title, #instructions_title{
+#about_title, .instructions_title{
 	font-style: italic;
 	font-size: 1.75vw;
+	text-align: center;
 }
 
 #button2{
-	width: 10vw;
-	height: 10vw;
-	color: white;
+	width: 150px;
+	height: 150px;
+	border-radius: 10%;
+	background: white;
 }
 
+#instructions{
+	display: flex;
+	justify-content: center;
+}
+
+#instructions_box{
+	width: 40vw;
+	height: 15vw;
+	border: .25vw solid white;
+}
 p{
 	color: white;
 }
