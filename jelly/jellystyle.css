@@ -26,6 +26,7 @@ body{
 	padding-bottom: 2em;
 	font-size: 1.5vw;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 .credit{
@@ -36,15 +37,17 @@ body{
 	width: 25vw;
 	margin-right: auto;
 	margin-left: auto;
-
 }
 
 .audio{
-	display: flex;
-	justify-content: center;
-	margin-left: auto;
-	margin-right: auto;
+	display: inline-block;
+	width: 600px;
+	margin-right: 25%;
+	margin-left: 32%;
+	margin-top: 50px;
+	text-align: center;
 }
+
 #about, #instructions{
 	display: flex;
 	justify-content: center;
@@ -80,22 +83,49 @@ body{
 	text-align: center;
 }
 
-#button2{
+#button2, #button3, #button4, 
+#button5, #button6, #button7, 
+#button8, #button9, #button10{
 	width: 150px;
+	line-height: 150px;
 	height: 150px;
 	border-radius: 10%;
+	padding: 5px;
 	background: white;
 	text-align: center;
 	font-family: NowAltMedium, sans-serif;
 	color: tomato;
-	margin-top: auto;
-	margin-bottom: auto;
-	font-size: 2em;
+	font-size: 28px;
+	margin: 10px;
+	float: left;
+}
+
+#button2:hover, #button3:hover, #button4:hover, 
+#button5:hover, #button6:hover, #button7:hover, 
+#button8:hover, #button9:hover , #button10:hover{
+	background: #fff59d;
+	cursor: pointer;
+}
+
+/*#button_grid{
+	grid-column-start: 2;
+	grid-column-end: span 3-start;
+	grid-row-start: 2;
+	grid-row-end: span 2;*/
+}
+
+/*#button2{
+	grid-row-start: 2;
+	grid-column-start: 2;
+	grid-row-end: 5;
+	grid-column-end: 5;
 }
 
 #button2:hover{
-	background: tomato;
+	background: lemonchiffon;
+	transition: 1s;
 }
+*/
 
 #instructions{
 	display: flex;
@@ -115,7 +145,6 @@ p{
 a{
   text-decoration: none;
   color: #ffffff;
-  
   transition: color 0.3s ease;
 }
 
@@ -197,13 +226,12 @@ a:hover{
 
 #menu{
   position: absolute;
-  width: 300px;
+  width: 200px;
   margin: -100px 0 0 -50px;
   /*padding: 50px;*/
   padding-top: 125px;
   font-family: NowAltRegular, sans-serif;
   
-  background: tomato;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   
