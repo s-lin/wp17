@@ -1,21 +1,21 @@
 $(document).ready(function() {
 
-  //   var audio2 = document.createElement('audio');
-  //   audio2.setAttribute('src', 'jelly_audio/single_slurp.mp3');
+    var audio2 = document.createElement('audio');
+     audio2.setAttribute('src', 'jelly_audio/slurp4.mp3');
     
-  //   $('#button3').click(function() {
-  //   	console.log("stared")
-  //   	//some fucking code here
-  //   	$("#button2").css("background", "#ffbbaf");
+     $('#button2').click(function() {
+     	console.log("stared")
+     	//some fucking code here
+     	$("#button2").css("background", "#ffbbaf");
 
-  //       audio2.play();
-  //       audio2.addEventListener("ended", function(){
-  //   	audio2.currentTime = 0;
-  //   	console.log("ended");
-  //   	//some more shit here
-  //   	$("#button2").css("background", "white");
-		// });
-  //   });
+         audio2.play();
+         audio2.addEventListener("ended", function(){
+     	audio2.currentTime = 0;
+     	console.log("ended");
+     	//some more shit here
+     	$("#button2").css("background", "white");
+		 });
+     });
 
    	var audio3 = document.createElement('audio');
     audio3.setAttribute('src', 'jelly_audio/double_slurp.mp3');
