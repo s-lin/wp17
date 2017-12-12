@@ -87,7 +87,7 @@ body{
 #button5, #button6, #button7, 
 #button8, #button9, #button10{
 	width: 150px;
-	line-height: 150px;
+/*	line-height: 150px;*/
 	height: 150px;
 	border-radius: 10%;
 	padding: 5px;
@@ -98,6 +98,9 @@ body{
 	font-size: 28px;
 	margin: 10px;
 	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #button2:hover, #button3:hover, #button4:hover, 
