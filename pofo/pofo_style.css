@@ -75,6 +75,8 @@ h2{
 	width: auto;
 	margin: auto;
 	padding-bottom: 50px;
+	justify-content: center;
+	align-items: center;
 }
 
 #content{
@@ -162,6 +164,12 @@ h2{
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+}
+
+@media screen
+and (max-width: 480px)
+and (min-width: 320px){
+
 }
 
 @font-face {
