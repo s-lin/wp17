@@ -13,13 +13,13 @@
 <body>
 	<header id="page_header">
 			<a href="pofo_home.html">
-				<img src="logo_orange.png">
+				<img src="logo_orange_small.png">
 			</a>
 
 			<a href="pofo_home.html">
 			</a>
 
-			<nav>
+			<nav id="nav_bar">
 				<ul>
 					<li><a href="design.html">DESIGN</a></li>
 					<li><a href="process.html">PROCESS</a></li>
@@ -27,22 +27,42 @@
 					<li><a href="about.html">ABOUT</a></li>
 				</ul>
 			</nav>
+
+			 <button class="hamburger">&#9776;</button>
+		 	 <button class="cross">&#735;</button>
+				<div class="menu">
+				  <ul>
+				    <a href="design.html"><li>DESIGN</li></a>
+				    <a href="process.html"><li>PROCESS</li></a>
+				    <a href="bonus_content.html"><li>EXTRAS</li></a>
+				    <a href="about.html"><li>ABOUT</li></a>
+				  </ul>
+				</div> 
 		</div>
 	</header>
 
-	<div id="project_content">
-		<div class="project_img">
-			<img src="test/final6.png"></div>
-		<div class="caption">this is a fkn test</div>
-		<div class="project_img">
-			<img src="test/final6.png"></div>
-		<div class="caption">this is also a fkn test</div>
-	</div>
+	<div id="project_entire">
+		<div id="project_content">
+			<div class="project_img">
+				<img src="test/final6.png"></div>
+			<div class="caption">this is a fkn test</div>
+			<div class="project_img">
+				<img src="test/final6.png"></div>
+			<div class="caption">this is also a fkn test</div>
+			<div class="project_img">
+				<img src="test/final6.png">
+				</div>
+			<div class="caption">another fkn test</div>
 
-	<div id="project_info">
-		<div class="info_title">title</div>
-		<ul>
-			<li>a</li>
-			<li>b</li>
-		</ul>
+		</div>
+
+		<div id="project_info">
+			<div class="info_title">title</div>
+			<ul>
+				<li>a</li>
+				<li>b</li>
+			</ul>
+		</div>
 	</div>
+</body>
+</html>

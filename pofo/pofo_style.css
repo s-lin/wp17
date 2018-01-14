@@ -9,19 +9,22 @@ header{
 	flex-direction: row;
 	justify-content: space-between;
 	padding-bottom: 5px;
-	padding-left: 10px;
-	border-bottom: 5px #393939 solid;
+	/*padding-left: 10px;
+	border-bottom: 5px #393939 solid;*/
 	color: #2b2b2b;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
-img{
+header img{
 	width: 100px;
 	height: auto;
 }
 
-nav{
-	float: right;
-}
+/*img{
+	width: 100px;
+	height: auto;
+}*/
 
 nav ul{
 	display: flex;
@@ -54,10 +57,18 @@ h2{
 	border-bottom: 2px solid #F26522;
 }
 
+button{
+	display: none;
+}
+
 #page_header{
 	display: flex;
 	flex-direction: row;
 	align-content: flex-start;
+}
+
+#nav_bar{
+	float: right;
 }
 
 /*#logo_type{
@@ -81,12 +92,14 @@ h2{
 
 #content{
 	padding-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #about{
 	display: flex;
 	justify-content: center;
-	width: 800px;
+	align-items: center;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -109,30 +122,40 @@ h2{
 	height: 250px;
 	background: #2b2b2b;
 	margin-right: 50px;
-	margin-top: 50px;
 }
 
 #project_info{
-	float: right;
-	position: fixed;
-	width: 250px
-	height: 600px;
-	background: #bbb
-	border: 1px solid black;
+	width: 250px;
+	height: 125px;
+	background: #f7f7f7;
+	margin-right: 10%;
+	margin-top: 25px;
+	padding: 15px;
+}
+
+#project_content{
+	margin-left: 10%;
+}
+
+#nav_menu{
+	display: none;
+}
+
+#project_entire{
+	display: flex;
 }
 
 .project{
-	text-align: center;
-	margin-left: 11px;
-	margin-right: 11px;
+	margin-left: 13px;
+	margin-right: 13px;
 }
 
 .thumb{
 	position: relative;
-	margin: 24px;
 	margin-bottom: 15px;
 	width: 300px;
-	height: 300px;
+	height: 200px;
+	padding: 24px;
 	background: #bbb;
 }
 
@@ -143,32 +166,117 @@ h2{
 .project_type{
 	color: #bbb;
 	padding-bottom: 25px;
-	width: 200px;
-	text-align: center;
+	width: 300px;
 }
 
-.project_img{
-	width: 800px;
+.project_img img{
+	max-width: 65%;
 	height: auto;
+	margin-top: 25px;
+	margin-right: auto;
 }
 
 .info_title{
 	font-weight: bold;
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-}
-
 @media screen
-and (max-width: 480px)
+and (max-width: 772px)
 and (min-width: 320px){
+	header img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	button{
+		display: block;
+	}
+
+	#nav_bar{
+		display: none;
+	}
+
+	#about{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#vertical_bar{
+		display: none;
+	}
+
+	#about_text{
+		margin-top: 3%;
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#placeholder{
+		margin-right: 0px;
+	}
+
+	#project_info{
+		display: none;
+	}
+
+	#project_entire{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.hamburger{
+	  background:none;
+	  position:absolute;
+	  top:0;
+	  right:0;
+	  line-height:45px;
+	  padding:5px 15px 0px 15px;
+	  color:#999;
+	  border:0;
+	  font-size:1.4em;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+
+	.cross{
+	  background:none;
+	  position:absolute;
+	  top:0px;
+	  right:0;
+	  padding:7px 15px 0px 15px;
+	  color:#999;
+	  border:0;
+	  font-size:3em;
+	  line-height:65px;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+
+	.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+	.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+	.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+	.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+	.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+	.menu ul li a:hover {  color: #666; text-decoration:none;}
+	.menu a{text-decoration:none; color:#666;}
+	.menu a:hover{text-decoration:none; color:#666;}
+
+	.glyphicon-home{
+	  color:white; 
+	  font-size:1.5em; 
+	  margin-top:5px; 
+	  margin:0 auto;
+	}
+	header{display:inline-block; font-size:12px;}
+	span{padding-left:20px;}
+	a{color:#336699;}
+	}
 
 }
 
